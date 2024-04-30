@@ -2,9 +2,9 @@
 
 namespace Database\Seeders;
 
-use App\Models\User;
-use App\Models\Feature;
 use App\Models\Package;
+use App\Models\Feature;
+use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         User::factory()->create([
-            'name' => 'luminal',
+            'name' => 'luminalwww',
             'email' => 'luminalwww@gmail.com',
             'password' => bcrypt('laravelreact123'),
         ]);
